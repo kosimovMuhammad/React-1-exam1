@@ -46,35 +46,9 @@ export const UserTable = () => {
 
   return (
     <div className="max-w-[1200px] mx-auto    font-sans antialiased">
-      <h1 className="text-[34px] font-bold text-[#1A1D1F] mb-8">Cards</h1>
 
       <div className="flex gap-5 mb-14 flex-wrap">
-        <div className="w-[320px] h-[190px] rounded-[22px] bg-gradient-to-r from-[#00C46A] to-[#00B15D] p-6 text-white shadow-md flex flex-col justify-between">
-          <div className="flex items-start justify-between">
-            <div>
-              <p className="text-[11px] opacity-80 mb-1">Current Balance</p>
-              <h2 className="text-[36px] font-bold tracking-tight">$4,570,80</h2>
-            </div>
-            <h3 className="font-black text-[24px] tracking-wide">VISA</h3>
-          </div>
-          <div>
-            <p className="text-[24px] tracking-[3px] mb-4">5294 2436 4780 2468</p>
-            <div className="flex justify-between">
-              <div>
-                <p className="text-[10px] uppercase opacity-70">Name</p>
-                <h4 className="text-[14px] font-semibold">Itai Bracha</h4>
-              </div>
-              <div>
-                <p className="text-[10px] uppercase opacity-70">Valid Thru</p>
-                <h4 className="text-[14px] font-semibold">12/24</h4>
-              </div>
-              <div>
-                <p className="text-[10px] uppercase opacity-70">CVV</p>
-                <h4 className="text-[14px] font-semibold">344</h4>
-              </div>
-            </div>
-          </div>
-        </div>
+       
 
         <div
           onClick={() =>
@@ -93,10 +67,7 @@ export const UserTable = () => {
         </div>
       </div>
 
-      <div className="flex items-center justify-between mb-6">
-        <h1 className="text-[34px] font-bold text-[#1A1D1F]">Transactions</h1>
-       
-      </div>
+      
 
       <div className="flex items-center gap-4 mb-7 flex-wrap">
         <div className="relative">
